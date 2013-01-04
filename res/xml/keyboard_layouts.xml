@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<!--    <keyboard-layout android:name="keyboard_layout_japanese"
+            android:label="@string/keyboard_layout_japanese"
+            android:keyboardLayout="@raw/keyboard_layout_japanese" /> -->
+    <keyboard-layout android:name="keyboard_layout_japanese"
+            android:label="@string/keyboard_layout_japanese"
+            android:keyboardLayout="@raw/mac" />
+
+</keyboard-layouts>

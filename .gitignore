@@ -1,2 +1,8 @@
 *.swp
 bin/
+local.properties
+proguard-project.txt
+project.properties
+gen/
+ant.properties
+build.xml
