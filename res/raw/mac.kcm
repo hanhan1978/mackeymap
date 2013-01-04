@@ -1,4 +1,4 @@
-type OVERLAY
+type OVERLAY 
 
 map key 29 MENU
 map key 58 CTRL_LEFT
@@ -8,6 +8,8 @@ map key 26  AT
 map key 27  LEFT_BRACKET
 map key 89  BACKSLASH
 map key 43  RIGHT_BRACKET
+
+
 
 ### ROW 1
 
@@ -83,11 +85,11 @@ key EQUALS {
     shift:                              '~'
 }
 
-
 key YEN {
-    label, number:                      '\\'
-    base:                               '\\'
+    label, number:                      '\u00a5'
+    base:                               '\u00a5'
     shift:                              '|'
+    alt, ctrl, meta:                    none
 }
 
 ### ROW 2
@@ -305,4 +307,11 @@ key BACKSLASH {
     label, number:                      '\\'
     base:                               '\\'
     shift:                              '_'
+}
+
+
+
+map key 109 INSERT 
+key INSERT {
+	base: fallback MENU 
 }
